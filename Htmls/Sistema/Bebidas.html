@@ -1,0 +1,112 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta charset="iso-8859-1">
+	<meta name="description">
+	<meta name="keywords" content="HTML5, CSS3, JavaScript">
+	<title>Coffe Shop</title>
+	<link rel="stylesheet" href= "../../CSS/pags.css">
+</head>
+<body>
+	<div id="agrupar">
+		<header id="cabecera">
+			<hgroup>
+				<h1>Coffe Shop</h1>
+				<h3>» » » Las limitaciones no nos limitan « « «</h3>
+			</hgroup>
+		</header>
+		<section id="seccion">
+			<form id="form1" name="form1" method="post" action="agregarBebidasCtrl.php">
+				<p class="centro"><h3>ADMINISTRACION DE BEBIDAS</h3><br>
+					<br>
+					<table>
+						<tr>
+							<td>CODIGO</td>
+							<td><input type="text" name="codcomi"/></td>
+						</tr>
+						<tr>
+							<td>VUELVA A REPETIR EL CODIGO</td>
+							<td><input type="text" name="repetir"/></td>
+						</tr>
+						<tr>
+							<td>PRECIO</td>
+							<td><input type="number" name="preciocom"/></td>
+						</tr>
+						<tr>
+							<td>NOMBRE DEL PRODUCTO</td>
+							<td><input type="text" name="nomcom"/></td>
+						</tr>
+						<tr>
+							<td>Imagen</td>
+							<td><input type="file" name="imagencomi"/></td>
+						</tr>
+						<tr>
+							<td>OBSERVACIONES</td>
+							<td><input type="text" name="observaciones"/></td>
+						</tr>
+					</table>	
+				<br>
+				<table>
+					<tr>
+						<td><input type="submit" name="borrar" id="borrar" value="Borrar" />
+						<input type="submit" name="actualizar" id="actualizar" value="Actualizar" />
+						<input type="submit" name="buscar" id="buscar" value="Buscar" />
+						<input type="submit" name="ingresar" id="ingresar" value="Ingresar" /></td>
+					</tr>
+				</table>
+				<br>
+				<table class="tabs">
+					<tr>
+						<td>CODIGO</td>
+						<td>NOMBRE DEL PRODUTO</td>
+						<td>PRECIO</td>
+						<td>IMAGEN</td>
+					</tr>
+					<tr>
+						<td>aguja</td>
+						<td>Agua de Jamaica</td>
+						<td>10</td>
+						<td><img src="../../IMAGENES/ag.jpg" class="img3" ></td>
+					</tr>
+					<tr>
+						<td>ref1</td>
+						<td>Regrescos de lata</td>
+						<td>12</td>
+						<td><img src="../../IMAGENES/re.jpg" class="img3" ></td>
+					</tr>
+					<tr>
+						<td>jug1</td>
+						<td>Jugos</td>
+						<td>15</td>
+						<td><img src="../../IMAGENES/jugos.jpg" class="img3" ></td>
+					</tr>
+					<tr>
+						<td>te1</td>
+						<td>Tés</td>
+						<td>15</td>
+						<td><img src="../../IMAGENES/te.jpg" class="img3" ></td>
+					</tr>
+					<tr>
+						<td>caf1</td>
+						<td>Cafés</td>
+						<td>13</td>
+						<td><img src="../../IMAGENES/caf.jpg" class="img3" ></td>
+					</tr>
+				</table>
+				<br>
+				<table>
+					<tr>
+						<td><a href="../../index.html"><image src="../../IMAGENES/home1.png" class="img3"/></a></td>
+						<td><a href="Adminprod.html"><image src="../../IMAGENES/regre.png" class="img3"/></a></td>
+						<td><a href="INICIO.html"><image src="../../IMAGENES/cerrar.png" class="img3"/></a></td>
+					</tr>
+				</table>
+			</form>			
+		</section>
+		<footer id="pie">
+			Derechos reservados NigthWolf &copy; 2018
+		</footer> 
+	</div>
+</body>
+</html>
